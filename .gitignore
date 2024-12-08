@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# If using migrations
+*.pyc
+migrations/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Local environment settings
+.env
+*.env
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# JetBrains IDE settings
+*.iml
+*.ipr
+*.iws
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Node.js stuff
+node_modules/
+
+# AWS credentials
+.aws/
+
+# LocalStack files
+.localstack/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+*.cover
+
+# Test and cache files
+*.pytest_cache
+.pytest_cache/
+.cache/
+
