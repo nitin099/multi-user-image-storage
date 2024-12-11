@@ -18,7 +18,6 @@ class ListImagesView(generics.ListAPIView):
     serializer_class = ImageSerializer
 
     def get_queryset(self):
-        import pdb; pdb.set_trace()
         queryset = Image.objects.all()
         metadata_key = self.request.query_params.get('metadata_key')
         metadata_value = self.request.query_params.get('metadata_value')
