@@ -1,7 +1,8 @@
 from django.db import models
 
 class Image(models.Model):
-    image = models.ImageField(upload_to='images/')
+    file_name = models.CharField(max_length=255)
+    s3_key = models.CharField(max_length=255)
     metadata = models.JSONField()
     uploaded_at = models.DateTimeField(auto_now_add=True)
 
